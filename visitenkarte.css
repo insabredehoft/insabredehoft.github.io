@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+#karte {
+  width:400px;
+  height:500px;
+  background-color:gray;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Raleway', sans-serif;
+  border-radius:5px;
+  overflow:hidden;
+}
+#kopf {
+  height:450px;
+  background-color:#54a7df;
+}
+#profil {
+  padding-top:50px;
+  width:250px;
+  height:300px;
+  margin-left:auto;
+  margin-right:auto;
+  color:white;
+  text-align:center;
+}
+#profil a {
+  font-weight:bold;
+}
+#profil p {
+  font-size:100%;
+}
+#profil_img {
+  width:200px;
+  height:180px;
+  overflow:hidden;
+  border-radius:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+}
+#profil_img img {
+  width:150px;
+ 
+}
+#social {
+  background-color:#DADFE1;
+  height:50px;
+}
+.box {
+  width:200px;
+  height:50px;
+  float:left;
+  color:gray;
+  text-align:center;
+  line-height:50px;
+  cursor:pointer;
+}
+.box a {
+  color:gray;
+  text-decoration:none;
+}
+.box:hover a {
+  color:white;
+}
+#fb:hover {
+  background-color:#3b5998;
+  color:white;
+}
+#ig:hover {
+  background-color:#85138f;
+  color:white;
+}
